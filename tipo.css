@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body{
+    
+    background-color: #6373AC;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+  
+}
+
+.login{
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 75px;
+    border-radius: 10%;
+    text-align: center;
+   
+    
+}
+.login h1{
+    color: #b6b2b2;
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 10px;
+    padding: 15px;
+    
+}
+.login h2{
+    color: #D8D8D8;
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 10px;
+    padding: 15px;
+    
+}
+.login h3{
+    color: #0c0606;
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 10px;
+    padding: 15px;
+}
+input[type="casal2"]{
+    color: rgb(7, 3, 3);
+    background-color: #B8C8EC;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    text-align: center;
+    border-color : transparent;
+    
+}
+input[type="casal2"]:hover{
+    background-color: #3c5098;
+    transition: 0.5s;
+    text-align: center;
+    
+}
+input[type="fornecedor"]{
+    color: rgb(7, 3, 3);
+    background-color: #B8C8EC;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    text-align: center;
+    border-color : transparent;
+}
+input[type="fornecedor"]:hover{
+    background-color: #3c5098;
+    transition: 0.5s;
+    text-align: center;
+    
+}
+
+
+
+
+.logo{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 75px;
+    border-radius: 10%;
+    
+}
+.casal{
+    position: absolute;
+    top: 25.3%;
+    left: 60%;
+    padding: 50px;
+    border-radius: 10%;
+    
+}
+
+.frase{
+    position: absolute;
+    top: 22%;
+    left: 10%;
+    padding: 50px;
+    border-radius: 10%;
+}
+
+.rodape{
+    background: #3C5098;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    top: 92.5%;
+}
+
+.cabecalho{
+    background: #3C5098;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    top: 18;
+    border-radius: 25px;
+    
+}
+
+footer{
+    color: aliceblue;
+    font-size:  20px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
